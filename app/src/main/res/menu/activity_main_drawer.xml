@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_grafik"
+            android:icon="@drawable/ic_baseline_pie_chart_24"
+            android:title="@string/menu_grafik" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/ic_baseline_widgets_24"
+            android:title="@string/menu_kategori" />
+        <item
+            android:id="@+id/nav_eksport"
+            android:icon="@drawable/ic_baseline_export"
+            android:title="@string/menu_eksport" />
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/menu_pengaturan" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_tentang" />
+    </group>
+</menu>
